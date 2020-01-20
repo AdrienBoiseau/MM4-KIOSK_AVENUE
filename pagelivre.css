@@ -26,8 +26,7 @@ body{
 }
 
 #cardheader{
-	width: 100%
-	height: 459;
+	height: 459px;
 	background: white;
 	border-radius: 25px;
 	margin-left: 25px;
@@ -40,8 +39,6 @@ body{
 }
 
 #card{
-	width: 100%
-	height: 459;
 	background: white;
 	border-radius: 25px;
 	margin-left: 25px;
@@ -53,8 +50,8 @@ body{
 }
 
 #avis{
-	width: 75%
-	height: 120;
+	width: 75%;
+	height: 120px;
 	background: #F2F2F2;
 	border-radius: 25px;
 	font-size: 13px;
@@ -135,7 +132,7 @@ span{
 
 }
 #fleximages p {
-	margin: 0px;
+	margin: 0;
 }
 
 #fleche1 {
@@ -167,4 +164,5 @@ span{
 	flex:1;
 	padding-left: 5px;
 	padding-right: 5px;
+}
 }

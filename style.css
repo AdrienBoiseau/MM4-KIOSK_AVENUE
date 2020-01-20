@@ -11,6 +11,10 @@ and (max-width : 560px) {
     h1 {
         background-color: pink;
     }
+
+
+
+    /*Menu Footer*/
     #footer{
         height: 70px;
         width: 100%;
@@ -23,25 +27,29 @@ and (max-width : 560px) {
         flex-direction: row;
         text-align: center;
 
-    }
+
+     }
      #footer #kiosque {
         flex: 1 1 0;
         color: white;
-        vertical-align: center;
+        align-self: center
 
-    }
-     #footer #kiosque p {
+     }
+     #footer p {
          margin: 0;
      }
     #footer #communauté {
         flex: 1 1 0;
-        justify-content: center;
+        align-self: center;
+        color: #007E52;
 
     }
      #footer #profile {
         flex: 1 1 0;
-        justify-content: center;
+        align-self: center;
+        color: #007E52;
 
-    }
+
+     }
 
 }

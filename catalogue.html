@@ -1,19 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="catalogue.css">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Catalogue</title>
+    <link rel="stylesheet" href="flickity.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+    <script src="flickity.pkgd.min.js"></script>
+
 </head>
+    <div id="header">
+        <div id="iphone">
+            <div id="heure">
+                <img src="images/heure.png" alt="heure">
+            </div>
+            <div id="batterie">
+                <img src="images/batterie.png" alt="batterie">
+            </div>
+        </div>
+        <div id="logosearch">
+            <img src="images/logo.png" alt="logo">
+            <div id="top-right">
+                <img src="images/search.png" alt="search">
+            </div>
+        </div>
+    </div>
+
+    <div id="recommandation">
+        <div id="top-recommandation">Vos recommendations du mois</div>
+        <div id="bottom-recommandation">Basé sur vos lectures et celles de vos communautés</div>
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell1"></div>
+            <div class="carousel-cell2"></div>
+            <div class="carousel-cell3"></div>
+            <div class="carousel-cell4"></div>
+        </div>
+    </div>
+    <div id="communaute">
+        <div id="top-communaute">Les livres de mes communautés</div>
+        <div id="bottom-communaute">Disponibles à l’emprunt de suite !</div>
+        <div class="carousel2" data-flickity='{ "groupCells": true }'>
+            <div class="carousel2-cell"></div>
+            <div class="carousel2-cell1"></div>
+            <div class="carousel2-cell2"></div>
+            <div class="carousel2-cell3"></div>
+            <div class="carousel2-cell4"></div>
+        </div>
+    </div>
+    <div id="collection">
+        <div id="top-collection">Les livres de mes communautés</div>
+        <div id="bottom-collection">Disponibles à l’emprunt de suite !</div>
+
+
+    </div>
+    <div id="box">
+        <div><img src="images/livres/livre1.png" alt="livre1"></div>
+        <div><img src="images/livres/livre2.png" alt="livre2"></div>
+        <div><img src="images/livres/livre3.png" alt="livre3"></div>
+        <div><img src="images/livres/livre4.png" alt="livre4"></div>
+        <div><img src="images/livres/livre1.png" alt="livre1"></div>
+        <div><img src="images/livres/livre2.png" alt="livre2"></div>
+        <div><img src="images/livres/livre3.png" alt="livre3"></div>
+        <div><img src="images/livres/livre4.png" alt="livre4"></div>
+        <div><img src="images/livres/livre1.png" alt="livre5"></div>
+
+    </div>
     <div id="footer">
         <div id="kiosque">
             <img src="images/kiosque.png" alt="Catalogue_Menu">
             <p>Kiosque</p>
         </div>
         <div id="communauté">
+            <img src="images/communauté.png" alt="Communauté_Menu">
             <p>Communauté</p>
         </div>
         <div id="profile">
+            <img src="images/profile.png" alt="Profile_Menu">
             <p>Profile</p>
         </div>
     </div>

@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
 
+
 </head>
 <body>
 
@@ -33,34 +34,117 @@
 			</div>
 		</div>
 	</div>
-
 	<div id="cardheader">
-		<h2> Comment voulez-vous récupérer le livre ? 😉 </h2>
-			<hr>
-			<br>
-			<div id="flexicones">
-			<div id="greensquare">
-				<img src="images/depot.png" alt="Depot" class="icone">
-				<p>Dépôt</p>
-			</div>
-			<div id="greensquare">
-				<img src="images/main.png" alt="Main à main" class="icone">
-				<p>Main à main</p>
-			</div>
-			</div>
+		<hr>
+		<!-- ETAPE 1 -->
+		<div id="etape1" style="display: block">
+			<h2> Comment voulez-vous récupérer le livre ? 😉 </h2>
+				<br>
+				<div id="flexicones">
+					<div id="depot">
+						<div id="depotNotSelect" style="display: block">
+							<img src="images/depot.png"  alt="Depot" class="icone">
+						</div>
+						<div id="depotSelect" style="display:none;">
+							<img src="images/depotSelect.png"  alt="Depot" class="icone" >
+						</div>
+						<p id="textDepot">Dépôt</p>
+					</div>
+					<div id="mainmain">
+						<div id="mainNotSelect" style="display: block">
+							<img src="images/main.png" alt="Main à main" class="icone">
+						</div>
+						<div id="mainSelect" style="display:none;">
+							<img src="images/mainSelect.png"  alt="Main à Main" class="icone" >
+						</div>
+							<p id="textMain">Main à main</p>
+					</div>
+				</div>
 
-			<div id="flextext">
-				<div id="textlegende">
-				<p>Le point de collecte de votre réseau</p>
-				<p>Point de rencontre établi avec le “Kiosker”</p>
+			<div class="textflex">
+				<div class="text">
+					<p>Le point de collecte de votre réseau</p>
+
+				</div>
+				<div class="text">
+					Point de rencontre établi avec le “Kiosker”
+
 				</div>
 			</div>
 		</div>
+		<!-- ETAPE 2 -->
+		<div id="etape2" style="display: none">
+			<div class="upperCard">
+				<div id="livre">
+					<div id="couverture">
+						<img src="images/memoiresdezeus.png"  alt="Depot" >
+					</div>
+					<div id="titrelivre">
+						<h2>Votre livre : </h2>
+						<p>- Les Mémoires de Zeus</p>
+					</div>
+				</div>
+			</div>
+			<div class="upperCard">
+				<div id="demande">
+					<div id="eric">
+						<img src="images/arthur.png"  alt="Depot" >
+					</div>
+					<div id="textEric">
+						<p>Votre demande sera envoyée à Arthur</p>
+					</div>
+				</div>
+			</div>
+
+			<h2>Méthode et durée d’emprunt :</h2>
+			<div id="flexicones2">
+				<div id="depot2">
+					<img src="images/depot.png"  alt="Depot" class="icone">
+					<p>Dépôt</p>
+				</div>
+				<div id="mainmain2">
+					<img src="images/calendar.png" alt="calendrier" class="icone">
+					<p>30 jours</p>
+				</div>
+			</div>
+			<div class="textflex">
+				<div class="text">
+					<p>Le point de collecte de votre réseau</p>
+				</div>
+				<div class="text">
+					Durée d’emprunt de 30 jours par défaut. (Prolongeable)
+				</div>
+			</div>
+		</div>
+		<!-- ETAPE 3 -->
+		<div id="etape3" style="display: none">
+			<span class="image">
+				<img class="zeus" src="images/memoiresdezeus.png"  />
+				<img class="picto" src="images/valid.png" />
+			</span>
+
+
+			<div id="texteEtape3">
+				<h2>Demande d’emprunt envoyée 😃</h2>
+				<p>Bonne lecture Maks !</p>
+				<p>Vous pouvez suivre l’état de votre demande dans votre profil</p>
+			</div>
+		</div>
+
 	</div>
-		
+
 	<div class="footer">
-		<p>Suivant <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></p>
+		<div id="boutonFooterSuivant" style="display: block">
+			<p>Suivant <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></p>
+		</div>
+		<div id="boutonFooterValider" style="display: none">
+			<p>Valider <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></p>
+		</div>
+		<div id="boutonFooterOK" style="display: none">
+			<p>OK ! <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></p>
+		</div>
 	</div>
 </body>
 
 </html>
+<script type="text/javascript" src="tunnelemprunt.js"></script>

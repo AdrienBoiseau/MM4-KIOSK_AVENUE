@@ -1,0 +1,130 @@
+@media only screen
+and (min-width : 0px)
+and (max-width : 320px)
+{
+    body {
+        display: none;
+    }
+}
+@media only screen
+and (min-width : 560px)
+{
+    body {
+        display: none;
+    }
+}
+@media only screen
+and (min-width : 320px)
+and (max-width : 560px) {
+    body {
+        margin: 0;
+        font-family: Nunito;
+
+    }
+    /*Menu Header*/
+    #headerblock{
+        width: 100%;
+        height: 137px;
+        background-color: #02DA91;
+    }
+    #headerblock #iphone {
+        display: flex;
+        flex-direction: row;
+    }
+    #headerblock #iphone #heure {
+        flex: 1 1 0;
+        margin-left: 5%;
+
+    }
+    #headerblock #iphone #batterie {
+        flex: 0 1 0;
+        margin-right: 5%;
+    }
+    #headerCross{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #headerCross #cross {
+        margin-top: 1%;
+        margin-right: 7%;
+    }
+    #headerText {
+        text-align:center;
+    }
+    #headerText #titleHeader {
+        color : white;
+        font-weight: bold;
+        font-size: 25px;
+
+    }
+    /*Card*/
+    #card{
+        height: auto;
+        background: white;
+        border-radius: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -5%;
+        padding:35px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+    /*Input text*/
+    input[type=text] {
+        background-color: #F2F2F2;
+        background-image: url('images/searchIcon.png');
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 41px;
+        border-radius: 5px;
+        border: none;
+        padding: 1% 5%;
+
+
+    }
+    #titre {
+        color : black;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    /*Menu Footer*/
+    #footer{
+        height: 70px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background:#02DA91;
+    }
+    #footer {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+
+    }
+    #footer #kiosque {
+        flex: 1 1 0;
+        color: white;
+        align-self: center
+
+    }
+    #footer p {
+        margin: 0;
+    }
+    #footer #communauté {
+        flex: 1 1 0;
+        align-self: center;
+        color: #007E52;
+
+    }
+    #footer #profile {
+        flex: 1 1 0;
+        align-self: center;
+        color: #007E52;
+
+
+    }
+
+}

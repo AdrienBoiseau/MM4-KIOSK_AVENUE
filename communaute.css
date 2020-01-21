@@ -7,6 +7,10 @@ and (max-width : 560px) {
         font-family: Nunito;
 
     }
+    a {
+        text-decoration: none;
+        color: #007E52;
+    }
 
     /*Menu Footer*/
     #footer{
@@ -24,18 +28,18 @@ and (max-width : 560px) {
 
      }
      #footer #kiosque {
-        flex: 1 1 0;
-        color: white;
-        align-self: center
-
+         flex: 1 1 0;
+         align-self: center;
+         color: #007E52;
      }
      #footer p {
          margin: 0;
      }
     #footer #communauté {
+
         flex: 1 1 0;
-        align-self: center;
-        color: #007E52;
+        color: white;
+        align-self: center
 
     }
      #footer #profile {

@@ -72,7 +72,7 @@ and (max-width : 560px) {
 	}
 
 	#cardheader {
-		height: auto;
+		height: 630px;
 		background: white;
 		border-radius: 25px;
 		margin-left: 25px;
@@ -240,5 +240,8 @@ and (max-width : 560px) {
 		margin-right: auto;
 		opacity:0.50;
 
+	}
+	#texteEtape3 {
+		font-size: 20px;
 	}
 }

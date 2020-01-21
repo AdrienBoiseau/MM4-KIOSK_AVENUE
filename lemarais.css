@@ -26,7 +26,10 @@ body{
 	font-family: Nunito;
 
 }
-
+a {
+	text-decoration: none;
+	color: white;
+}
 
 #headerblock{
     width: 100%;

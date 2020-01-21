@@ -1,0 +1,148 @@
+@media only screen
+and (min-width : 0px)
+and (max-width : 320px)
+{
+	body {
+		display: none;
+	}
+}
+@media only screen
+and (min-width : 560px)
+{
+	body {
+		display: none;
+	}
+}
+@media only screen
+and (min-width : 320px)
+and (max-width : 560px) {
+
+body{
+	margin-bottom: 70px;
+	margin-top:0;
+	margin-left:0;
+	margin-right: 0;
+	padding-bottom: 35px;
+	font-family: Nunito;
+
+}
+
+
+#headerblock{
+    width: 100%;
+    height: 137px;
+    background-color: #02DA91;
+}
+#headerblock #iphone {
+	display: flex;
+	flex-direction: row;
+}
+#headerblock #iphone #heure {
+	flex: 1 1 0;
+	margin-left: 5%;
+
+}
+#headerblock #iphone #batterie {
+	flex: 0 1 0;
+	margin-right: 5%;
+}
+#headerCross{
+	display: flex;
+	flex-direction: row-reverse;
+}
+#headerCross #cross {
+	margin-top: 1%;
+	margin-right: 7%;
+}
+#headerText {
+	text-align:center;
+}
+#headerText #titleHeader {
+	color : white;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+#cardheader{
+	height: auto;
+	background: white;
+	border-radius: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: -35px;
+	font-size: 13px;
+	padding:35px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#cardheader p {
+	text-align: justify;
+}
+#cardheader #resume {
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+#card{
+	background: white;
+	border-radius: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 30px;
+	font-size: 13px;
+	padding:35px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #02DA91;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  height:70px;
+}
+
+#flexicones {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	text-align: center;
+}
+
+#flexicones p {
+	text-align: center;
+}
+
+#greensquare {
+  height: 130px;
+  width: 130px;
+  margin: auto;
+  border: 3px solid #02DA91;
+  border-radius: 10%;
+}
+
+#flextext {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+#textlegende {
+	
+}
+
+.icone {
+	height: 55px;
+	margin-top: 20px;
+}

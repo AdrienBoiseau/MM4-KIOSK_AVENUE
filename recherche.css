@@ -1,21 +1,4 @@
-@media only screen
-and (min-width : 0px)
-and (max-width : 320px)
-{
-    body {
-        display: none;
-    }
-}
-@media only screen
-and (min-width : 560px)
-{
-    body {
-        display: none;
-    }
-}
-@media only screen
-and (min-width : 320px)
-and (max-width : 560px) {
+
     body {
         margin: 0;
         font-family: Nunito;
@@ -127,4 +110,4 @@ and (max-width : 560px) {
 
     }
 
-}
+

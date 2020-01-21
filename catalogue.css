@@ -1,6 +1,4 @@
-@media only screen
-and (min-width : 320px)
-and (max-width : 560px) {
+
     a {
         text-decoration: none;
         color: #007E52;
@@ -61,6 +59,7 @@ and (max-width : 560px) {
     /*Vos communautés*/
     #communaute{
         margin-top: 7%;
+
 
     }
     #communaute #top-communaute {
@@ -146,6 +145,7 @@ and (max-width : 560px) {
     /*Carrousel2*/
     .carousel2 {
         margin-top: 3%;
+
     }
     .carousel2-cell {
         width: 28%;
@@ -244,4 +244,3 @@ and (max-width : 560px) {
 
      }
 
-}

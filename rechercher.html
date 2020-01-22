@@ -6,6 +6,7 @@
     <title>Rechercher</title>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
     <link rel="stylesheet" type="text/css" href="recherche.css">
+
 </head>
 <body>
 <div id="headerblock">
@@ -31,10 +32,10 @@
 
 <div id="card">
     <input type="text" id="recherche" name="recherche" placeholder="Rechercher parmis 1000 références..." required>
-    <div id="titre">
+    <div id="titre" style="display: block">
         <p>Genres appréciés par mes clubs</p>
     </div>
-    <div id="categories">
+    <div id="categories" style="display: block">
         <p>Romans & Fiction</p>
         <hr>
         <p>Bande dessinée & Manga</p>
@@ -55,6 +56,9 @@
         <hr>
         <p>Histoire & Géographie</p>
     </div>
+    <div id="resultRecherche" style="display: none">
+        <p>Résulats</p>
+    </div>
 </div>
 
 <div id="footer">
@@ -73,3 +77,4 @@
 </div>
 </body>
 </html>
+<script type="text/javascript" src="recherche.js"></script>

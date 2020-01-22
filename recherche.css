@@ -1,8 +1,9 @@
-
+    *{
+        outline: none;
+    }
     body {
         margin: 0;
         font-family: Nunito;
-
     }
     /*Menu Header*/
     #headerblock{
@@ -66,7 +67,7 @@
 
 
     }
-    #titre {
+    #titre,#resultRecherche {
         color : black;
         font-weight: bold;
         font-size: 18px;
@@ -108,6 +109,15 @@
         color: #007E52;
 
 
+    }
+    .Result {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    .Result p {
+        margin-left: 3%;
     }
 
 

@@ -9,7 +9,10 @@ body {
 
 }
 
-
+a {
+	text-decoration: none;
+	color: white;
+}
 #headerblock {
 	width: 100%;
 	height: 137px;

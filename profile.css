@@ -1,0 +1,269 @@
+
+    a {
+        text-decoration: none;
+        color: #007E52;
+    }
+    body{
+        margin: 0;
+        padding-bottom: 100px;
+        font-family: Nunito;
+
+    }
+    /*Menu Header*/
+    #header {
+        height: 136px;
+        width: 100%;
+        background:#02DA91;
+    }
+    #header #iphone {
+        display: flex;
+        flex-direction: row;
+    }
+    #header #iphone #heure {
+        flex: 1 1 0;
+        margin-left: 5%;
+
+    }
+    #header #iphone #batterie {
+        flex: 0 1 0;
+        margin-right: 5%;
+    }
+    
+    
+    /*Menu Footer*/
+    #footer{
+        height: 70px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background:#02DA91;
+    }
+     #footer {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+
+     }
+     #footer #kiosque {
+        flex: 1 1 0;
+        color: white;
+        align-self: center
+
+     }
+     #footer p {
+         margin: 0;
+     }
+    #footer #communauté {
+        flex: 1 1 0;
+        align-self: center;
+        color: #007E52;
+
+    }
+     #footer #profile {
+        flex: 1 1 0;
+        align-self: center;
+        color: #007E52;
+
+
+     }
+
+ #flexheader {
+    color: white;
+    display: flex;
+ }
+
+ #photoprofile {
+    height: 75px;
+    width: 75px;
+    padding: 15px;
+ }
+
+ #nomprofile {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+ }
+
+#flexboutons {
+    display: flex;
+}
+
+#bouton1 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    margin-left: 110px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+#bouton2 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+#carddemandes{
+    background: white;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+    font-size: 13px;
+    padding:35px;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cardemprunts{
+    background: white;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+    font-size: 13px;
+    padding:35px;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cardprets{
+    background: white;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+    font-size: 13px;
+    padding:35px;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#flexdemandes {
+    display: flex;
+    flex-direction: row;
+}
+
+#flexemprunts {
+    display: flex;
+    flex-direction: row;
+}
+
+#flexprets {
+    display: flex;
+    flex-direction: row;
+}
+
+#titrelivre {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+#boutonpret {
+    background-color: #F0F1F3;
+    color: black;
+    height: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-top: 8px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boutonpretcesar {
+    background-color: #F0F1F3;
+    color: black;
+    height: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-top: 8px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -85px;
+}
+
+#textpret {
+    height: 20px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#couverturelivre {
+    margin-top: 20px;
+}
+
+#boutonstatut {
+    background-color: #02DA91;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    width: 190px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+#barreverte {
+    background-color: #02DA91;
+    border-radius: 10px;
+    color: white;
+    width: 190px;
+    height: 8px;
+    text-align: center;
+}
+
+#barregrise {
+    background-color: #F0F1F3;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    width: 190px;
+    height: 8px;
+    text-align: center;
+    margin-top: -21px;
+    margin-left: 105px;
+}
+
+#jours {
+    margin-bottom: -10px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+#texteprets {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 5px;
+}
+
+#iconespret {
+    margin-top: -3px;
+    vertical-align: middle;
+}
+}

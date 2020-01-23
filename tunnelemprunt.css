@@ -1,4 +1,3 @@
-
 body {
 	margin-bottom: 70px;
 	margin-top: 0;
@@ -8,11 +7,11 @@ body {
 	font-family: Nunito;
 
 }
-
 a {
 	text-decoration: none;
 	color: white;
 }
+/* Header */
 #headerblock {
 	width: 100%;
 	height: 137px;
@@ -55,7 +54,7 @@ a {
 	font-size: 25px;
 
 }
-
+/* Card content */
 #cardheader {
 	height: 100%;
 	background: white;
@@ -78,7 +77,6 @@ a {
 	font-size: 15px;
 
 }
-
 
 /*Tunnel (étape 1,2,3)*/
 #trait{
@@ -138,19 +136,7 @@ a {
 
 }
 
-.footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: #02DA91;
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
-	height: 70px;
-}
-
+/*Icones étape 1*/
 #flexicones {
 	display: flex;
 	align-items: center;
@@ -207,6 +193,8 @@ a {
 	height: 55px;
 	margin-top: 20px;
 }
+
+/*Cartes étape 2*/
 .upperCard {
 	background: white;
 	border-radius: 10px;
@@ -234,6 +222,7 @@ a {
 #demande #eric {
 	margin-right: 5%;
 }
+/*Icones étape 2*/
 #flexicones2 {
 	display: flex;
 	align-items: center;
@@ -262,6 +251,7 @@ a {
 	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 10%;
 }
+/*Etape 3*/
 #texteEtape3 {
 	text-align: center;
 }
@@ -272,4 +262,17 @@ a {
 
 #texteEtape3 {
 	font-size: 20px;
+}
+/* Footer */
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #02DA91;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	height: 70px;
 }

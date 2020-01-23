@@ -1,5 +1,3 @@
-
-
 body{
 	margin-bottom: 70px;
 	margin-top:0;
@@ -13,7 +11,7 @@ a {
 	text-decoration: none;
 	color: white;
 }
-
+/* Header */
 #headerblock{
     width: 100%;
     height: 137px;
@@ -50,6 +48,7 @@ a {
 
 }
 
+/* Content (card) */
 #cardheader{
 	height: auto;
 	background: white;
@@ -64,39 +63,12 @@ a {
 }
 #cardheader p {
 	text-align: justify;
+	font-size: 15px;
 }
-#cardheader #resume {
+#maraisBold {
 	font-weight: bold;
-	font-size: 15px;
-
 }
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #02DA91;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-  height:70px;
-}
-
-.photo {
-	height: 145px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-}
-
-.iconetext {
-	text-align: center;
-	font-size: 15px;
-}
-
+/*Images abonnés*/
 #fleximages{
 	display: flex;
 	align-items: center;
@@ -105,7 +77,6 @@ a {
 	margin-top: 25px;
 
 }
-
 #fleximages p {
 	margin: 0;
 }
@@ -134,9 +105,37 @@ a {
 	padding-left: 5px;
 	padding-right: 5px;
 }
-
+#image2 p {
+	text-align: center;
+}
 #image3 {
 	flex:1;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+.photo {
+	height: 145px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+}
+
+.iconetext {
+	margin-left: 25%;
+	font-size: 20px;
+}
+
+/* Footer */
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #02DA91;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	height:70px;
 }

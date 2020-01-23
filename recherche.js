@@ -15,6 +15,7 @@ document.getElementById("recherche").onkeyup = function () {
     }
     catch(error) {
         elements[0].remove();
+
     }
 
     //Si la recherche n'est pas vide alors chercher les results
@@ -32,18 +33,18 @@ document.getElementById("recherche").onkeyup = function () {
             let regex = '[a-z]*' + rechercheLower + '[a-z]*';
 
             if (livreLower.match(new RegExp(regex))) {
-                console.log(livres[i][0]);
-                // crée un nouvel élément div
+
                 var newDiv = document.createElement("div");
                 newDiv.className = "Result";
-                // et lui donne un peu de contenu
+                var newA = document.createElement("a");
+                newA.href = "page-livre.html";
                 var titre = document.createElement("p");
                 titre.innerHTML = livres[i][0];
                 var image = document.createElement("img");
                 image.src = livres[i][1];
-                // ajoute le nœud texte au nouveau div créé
-                newDiv.appendChild(image);
-                newDiv.appendChild(titre);
+                newDiv.appendChild(newA);
+                newA.appendChild(image);
+                newA.appendChild(titre);
 
                 // ajoute le nouvel élément créé et son contenu dans le DOM
                 var parentDiv = document.getElementById("card");

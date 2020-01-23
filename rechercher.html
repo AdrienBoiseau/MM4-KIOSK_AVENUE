@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Rechercher</title>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
     <link rel="stylesheet" type="text/css" href="recherche.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
 
 </head>
-<body>
+<!-- Header -->
 <div id="headerblock">
     <div id="iphone">
         <div id="heure">
@@ -29,11 +30,14 @@
         <div id="titleHeader">Recherche</div>
     </div>
 </div>
-
+<body>
+<!-- Card avec la recherche -->
 <div id="card">
-    <input type="text" id="recherche" name="recherche" placeholder="Rechercher parmis 1000 références..." required>
+    <!-- Input text pour recherche -->
+    <input type="text" id="recherche" name="recherche" placeholder="Rechercher parmis 1000 références...">
+    <!-- Catégorie -->
     <div id="titre" style="display: block">
-        <p>Genres appréciés par mes clubs</p>
+        <h2>Genres appréciés par mes clubs</h2>
     </div>
     <div id="categories" style="display: block">
         <p>Romans & Fiction</p>
@@ -56,11 +60,13 @@
         <hr>
         <p>Histoire & Géographie</p>
     </div>
+    <!-- Recherche résultats -->
     <div id="resultRecherche" style="display: none">
-        <p>Résulats</p>
+        <h2>Résultats</h2>
     </div>
 </div>
-
+</body>
+<!-- Footer -->
 <div id="footer">
     <div id="kiosque">
         <img src="images/kiosque.png" alt="Catalogue_Menu">
@@ -75,6 +81,5 @@
         <p>Profile</p>
     </div>
 </div>
-</body>
 </html>
 <script type="text/javascript" src="recherche.js"></script>

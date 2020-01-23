@@ -1,52 +1,15 @@
+body{
+    margin: 0;
+    padding-bottom: 100px;
+    font-family: Nunito;
 
-    body{
-        margin: 0;
-        padding-bottom: 100px;
-        font-family: Nunito;
+}
+a {
+    text-decoration: none;
+    color: #007E52;
+}
 
-    }
-    a {
-        text-decoration: none;
-        color: #007E52;
-    }
-
-    /*Menu Footer*/
-    #footer{
-        height: 70px;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        background:#02DA91;
-    }
-     #footer {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-
-
-     }
-     #footer #kiosque {
-         flex: 1 1 0;
-         align-self: center;
-         color: #007E52;
-     }
-     #footer p {
-         margin: 0;
-     }
-    #footer #communauté {
-
-        flex: 1 1 0;
-        color: white;
-        align-self: center
-
-    }
-     #footer #profile {
-        flex: 1 1 0;
-        align-self: center;
-        color: #007E52;
-    }
-
-
+/* Header */
 #headerblock{
     width: 100%;
     height: 137px;
@@ -82,89 +45,84 @@
     font-size: 25px;
 
 }
-
-#cardheader{
-    height: auto;
-    background: white;
-    border-radius: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: -30px;
-    font-size: 13px;
-    padding:25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+/* Content */
+#content {
+    margin-right: 5%;
+    margin-left: 5%;
 }
-#cardheader p {
-    text-align: justify;
-}
-#cardheader #resume {
-    font-weight: bold;
-    font-size: 15px;
-
-}
-
-#card{
-    background: white;
-    border-radius: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 30px;
-    font-size: 13px;
-    padding:35px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#content h2 {
+    margin: 0;
 }
 
 .kioskers {
     height: 50px;
 }
 
-.comu {
-    height: 78px;
-}
 .flexcomu {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .bouton {
-  background-color: #F0F1F3;
-  border: none;
-  color: black;
-  padding: 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  border-radius: 20px;
+    background-color: #F0F1F3;
+    border: none;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 20px;
 }
 
 .bouton2 {
-  background-color: #02DA91;
-  border: none;
-  color: white;
-  padding: 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  border-radius: 20px;
+    background-color: #02DA91;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 20px;
 }
-
 .fleximage {
-    margin-right: 20px;
-    margin-top: 10px;
+    margin-right: 3%;
 }
-
-.flexat {
-    
-}
-
-.flexbouton {
-    margin-left: 30px;
-    margin-top: 15px;
-}
-
 .flexcomu p {
     font-size: 14px;
+}
+
+/*Menu Footer*/
+#footer{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background:#02DA91;
+}
+#footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+#footer #kiosque {
+    flex: 1 1 0;
+    align-self: center;
+    color: #007E52;
+}
+#footer p {
+    margin: 0;
+}
+#footer #communauté {
+    flex: 1 1 0;
+    color: white;
+    align-self: center
+
+}
+#footer #profile {
+    flex: 1 1 0;
+    align-self: center;
+    color: #007E52;
 }

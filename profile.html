@@ -171,6 +171,34 @@
     </div>
 </div>
 </body>
+
+<!-- Pop UP -->
+
+<div id="popup" class="popupStyle">
+    <div class="popupStyle-content animate" >
+        <h3>Non c'est déjà l'heure de rendre le livre 😢</h3>
+        <hr>
+        <span onclick="document.getElementById('popup').style.display='none'" class="close" title="Close PopUp">&times;</span>
+        <div id="livrePopup">
+            <div id="livreCover">
+                <img src="images/livres/livre2.png" alt="The Book of Strange New Things">
+            </div>
+            <div id="livreTitle">
+                <p>The Book of Strange New Things</p>
+                <p id="nomAuteur">Michel Faber</p>
+                <div id="boutonPopup">
+                    <div>
+                        <button disabled="disabled" type="button">Prolonger l'emprunt</button>
+                    </div>
+                    <div>
+                        <a href="demandeavis.html"><button class="favorite styled" type="button">Confirmer le rendu du livre</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Footer -->
 <div id="footer">
     <div id="kiosque">
@@ -188,4 +216,4 @@
 </div>
 
 </html>
-<script src="flickity.pkgd.min.js"></script>
+<script type="text/javascript" src="profile.js"></script>

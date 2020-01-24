@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Emprunter un livre</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+	<link rel="stylesheet" type="text/css" href="demandeavis.css">
+</head>
+<!-- Header -->
+<div id="headerblock">
+	<div id="iphone">
+		<div id="heure">
+			<img src="images/heure.png" alt="heure">
+		</div>
+		<div id="batterie">
+			<img src="images/batterie.png" alt="batterie">
+		</div>
+	</div>
+	<div id="headerCross">
+		<div id="cross">
+			<a href="catalogue.html" >
+				<img src="images/cross.png" alt="cross">
+			</a>
+		</div>
+	</div>
+	<div id="headerText">
+		<div id="titleHeader">
+			Partage ton avis sur le livre
+		</div>
+	</div>
+</div>
+<body>
+<!-- Card emprunter un livre-->
+<div id="cardheader">
+	<img src="images/merci.png" alt="Merci" id="iconemerci">
+	<h2>Merci d’avoir utilisé Kiosk Avenue !</h2>
+	<p>Nous te proposons de partager ton avis sur <i>"Les Mémoires de Zeus"</i> que tu viens de lire, pas de panique, rien d’obligatoire 😊</p>
+	<hr>
+	<br>
+	<h3>Quelle note donnerais-tu ?</h3>
+
+ <div class="notation">
+    <input type="radio" id="star5" name="notation" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="notation" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="notation" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="notation" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="notation" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+
+	<h3>Un commentaire sur le livre ?</h3>
+	<div id="fondcommentaire">
+		<div>
+			<textarea name="Commentaire" placeholder="Ton avis nous intéresse!"></textarea>
+		</div>
+	</div>
+</div>
+
+<!-- Footer 3 -->
+<div class="footer">
+	<div id="flexboutons">   
+    	<div id="bouton1">
+    		<span>😔 Continuer sans donner mon avis</span>
+    	</div>
+        <div id="bouton2">
+            <span>😃 Valider mon avis et continuer</span>
+        </div>
+    </div>
+
+</div>
+
+</html>

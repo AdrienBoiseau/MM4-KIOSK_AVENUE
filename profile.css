@@ -1,94 +1,32 @@
-
-    a {
-        text-decoration: none;
-        color: #007E52;
-    }
-    body{
-        margin: 0;
-        padding-bottom: 100px;
-        font-family: Nunito;
-
-    }
-    /*Menu Header*/
-    #header {
-        height: 136px;
-        width: 100%;
-        background:#02DA91;
-    }
-    #header #iphone {
-        display: flex;
-        flex-direction: row;
-    }
-    #header #iphone #heure {
-        flex: 1 1 0;
-        margin-left: 5%;
-
-    }
-    #header #iphone #batterie {
-        flex: 0 1 0;
-        margin-right: 5%;
-    }
-    
-    
-    /*Menu Footer*/
-    #footer{
-        height: 70px;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        background:#02DA91;
-    }
-     #footer {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-
-
-     }
-     #footer #kiosque {
-        flex: 1 1 0;
-        color: white;
-        align-self: center
-
-     }
-     #footer p {
-         margin: 0;
-     }
-    #footer #communauté {
-        flex: 1 1 0;
-        align-self: center;
-        color: #007E52;
-
-    }
-     #footer #profile {
-        flex: 1 1 0;
-        align-self: center;
-        color: #007E52;
-
-
-     }
-
- #flexheader {
-    color: white;
-    display: flex;
- }
-
- #photoprofile {
-    height: 75px;
-    width: 75px;
-    padding: 15px;
- }
-
- #nomprofile {
-    margin-left: 10px;
-    margin-top: 5px;
-    font-size: 20px;
- }
-
-#flexboutons {
-    display: flex;
+a {
+    text-decoration: none;
+    color: #007E52;
 }
+body{
+    margin: 0;
+    padding-bottom: 100px;
+    font-family: Nunito;
 
+}
+/*Menu Header*/
+#header {
+    height: 136px;
+    width: 100%;
+    background:#02DA91;
+}
+#header #iphone {
+    display: flex;
+    flex-direction: row;
+}
+#header #iphone #heure {
+    flex: 1 1 0;
+    margin-left: 5%;
+
+}
+#header #iphone #batterie {
+    flex: 0 1 0;
+    margin-right: 5%;
+}
 #bouton1 {
     display: inline-block;
     background-color: white;
@@ -100,8 +38,8 @@
     padding-right: 10px;
     font-size: 14px;
     margin-left: 110px;
-    margin-top: -40px;
-    margin-bottom: 40px;
+    margin-top: -50px;
+    margin-bottom: 50px;
 }
 
 #bouton2 {
@@ -115,21 +53,110 @@
     padding-right: 10px;
     font-size: 14px;
     margin-left: 20px;
-    margin-top: -40px;
-    margin-bottom: 40px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+#flexheader {
+    color: white;
+    display: flex;
 }
 
+#photoprofile {
+    height: 75px;
+    width: 75px;
+    padding: 15px;
+}
+
+#nomprofile {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#flexboutons {
+    display: flex;
+}
+
+/* Card */
+.flexdemandes {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexemprunts {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexprets {
+    display: flex;
+    flex-direction: row;
+}
+
+.titrelivre {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 10px;
+    width: 100%;
+}
+.textpret {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.texteprets {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 100%;
+}
+
+.iconespret {
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+.couverturelivre {
+    margin-top: 30px;
+}
+.boutonpret {
+    background-color: #F0F1F3;
+    color: black;
+    height: 100%;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-top: 8px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagePret {
+    margin-right: 5%;
+}
+
+/*Card demande*/
 #carddemandes{
     background: white;
     border-radius: 25px;
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 30px;
-    font-size: 13px;
     padding:35px;
+    font-size: 13px;
+
     padding-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#carddemandes h3 {
+    line-height: 100%;
+
+}
+
+/*Card emprunt*/
 
 #cardemprunts{
     background: white;
@@ -137,11 +164,22 @@
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 30px;
-    font-size: 13px;
     padding:35px;
+    font-size: 13px;
+
     padding-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#livreEmprunt {
+    width: 48%;
+    line-height: 100%;
+}
+#jours {
+    margin-bottom: 2px;
+    margin-left: 25%;
+    line-height: 100%;
+}
+/*Card Prêt */
 
 #cardprets{
     background: white;
@@ -155,115 +193,136 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#flexdemandes {
-    display: flex;
-    flex-direction: row;
-}
-
-#flexemprunts {
-    display: flex;
-    flex-direction: row;
-}
-
-#flexprets {
-    display: flex;
-    flex-direction: row;
-}
-
-#titrelivre {
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
-    line-height: 10px;
-}
-
-#boutonpret {
-    background-color: #F0F1F3;
-    color: black;
-    height: 20px;
-    border-radius: 15px;
-    padding: 5px;
-    font-size: 14px;
-    margin-top: 20px;
-    padding-top: 8px;
-    width: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #boutonpretcesar {
     background-color: #F0F1F3;
     color: black;
-    height: 20px;
+    height: 100%;
     border-radius: 15px;
-    padding: 5px;
     font-size: 14px;
     margin-top: 20px;
-    padding-top: 8px;
-    width: 120px;
+    width: 48%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: -85px;
 }
-
-#textpret {
-    height: 20px;
-    font-size: 12px;
-    margin-left: 10px;
-}
-
-#couverturelivre {
-    margin-top: 20px;
-}
-
 #boutonstatut {
     background-color: #02DA91;
     border-radius: 10px;
     color: white;
     padding: 7px;
-    width: 190px;
+    width: 100%;
     text-align: center;
     margin-top: 25px;
+    line-height: 100%;
 
 }
 
-#barreverte {
-    background-color: #02DA91;
-    border-radius: 10px;
-    color: white;
-    width: 190px;
-    height: 8px;
+/*Menu Footer*/
+#footer{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background:#02DA91;
+}
+#footer {
+    display: flex;
+    flex-direction: row;
     text-align: center;
-}
 
-#barregrise {
-    background-color: #F0F1F3;
-    border-radius: 0px 10px 10px 0px;
+
+}
+#footer #kiosque {
+    flex: 1 1 0;
     color: white;
-    width: 190px;
-    height: 8px;
+    align-self: center
+
+}
+#footer p {
+    margin: 0;
+}
+#footer #communauté {
+    flex: 1 1 0;
+    align-self: center;
+    color: #007E52;
+
+}
+#footer #profile {
+    flex: 1 1 0;
+    align-self: center;
+    color: white;
+
+
+}
+
+/*PROGRESS BAR */
+.progress {
+    background-color: #f9f9f9;
+    color: #fff;
+    box-shadow: inset 0 1px 1px rgba(100, 100, 100, 0.1);
+    box-sizing: initial;
+    color: #fff;
+    font-size: 11px;
+    font-size: 0.6875rem;
+    height: 12px;
+    line-height: 1.182;
+    margin: 6px 0;
+    position: relative;
     text-align: center;
-    margin-top: -21px;
-    margin-left: 105px;
+    width: 100%;
+    border-radius: 20px;
 }
 
-#jours {
-    margin-bottom: -10px;
-    margin-top: -10px;
-    margin-left: 100px;
+.progress-small {
+    font-size: 9px;
+    font-size: 0.5625rem;
+    height: 6px;
+    line-height: 0.875;
 }
 
-#texteprets {
+.progress-large {
+    font-size: 16px;
+    font-size: 1rem;
+    height: 25px;
+    line-height: 1.7;
+}
+
+.progress > span {
+    background-color: #2bc253;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    border-radius: 20px 0 0 20px;
+}
+.progress.progress-stacked > span {
     display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
-    line-height: 5px;
+    float: left;
 }
 
-#iconespret {
-    margin-top: -3px;
-    vertical-align: middle;
+.progress-striped > span:after, .progress-striped > span > span {
+    background-size: 50px 50px;
+    bottom: 0;
+    content: "";
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
 }
+.progress-striped.progress-animate > span:after, .progress-striped.progress-animate > span > span {
+    -webkit-animation: move 2s linear infinite;
+    animation: move 2s linear infinite;
+}
+
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
 }

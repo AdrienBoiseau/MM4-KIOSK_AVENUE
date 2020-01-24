@@ -1,213 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="profile.css">
     <meta charset="UTF-8">
     <title>Profile</title>
     <link rel="stylesheet" href="flickity.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="profile.css">
 
 </head>
-<body>
-    <div id="header">
-        <div id="iphone">
-            <div id="heure">
-                <img src="images/heure.png" alt="heure">
-            </div>
-            <div id="batterie">
-                <img src="images/batterie.png" alt="batterie">
-            </div>
+<!-- Header -->
+<div id="header">
+    <div id="iphone">
+        <div id="heure">
+            <img src="images/heure.png" alt="heure">
         </div>
-       <div id="flexheader">
-            <div id="photoprofile">
-            <img src="images/maks.png" alt="Maks">
-            </div>
-            <div id="nomprofile">
-            <p>Maks <i class="fa fa-trophy" aria-hidden="true"></i></p>
-            </div>
-       </div> 
-       <div id="flexboutons">
-        
-            <div id="bouton1">
-            <span>4 livres en prêt</span>
-            </div>
-        
-            <div id="bouton2">
-            <span>1 emprunt actif</span>
-            </div>
+        <div id="batterie">
+            <img src="images/batterie.png" alt="batterie">
         </div>
-       
     </div>
-    
-    <div id="carddemandes">
-            <h3>Mes demandes</h3>
-            <hr>
-        <div id="flexdemandes">
-            
-            <div id="couverturelivre">
+    <div id="flexheader">
+        <div id="photoprofile">
+            <img src="images/maks.png" alt="Maks">
+        </div>
+        <div id="nomprofile">
+            <p>Maks <i class="fa fa-trophy" aria-hidden="true"></i></p>
+        </div>
+    </div>
+    <div id="flexboutons">
+
+        <div id="bouton1">
+            <span>4 livres en prêt</span>
+        </div>
+
+        <div id="bouton2">
+            <span>1 emprunt actif</span>
+        </div>
+    </div>
+
+</div>
+<!-- Card demandes -->
+<body>
+<div id="carddemandes">
+    <h2>Mes demandes</h2>
+    <hr>
+    <div class="flexdemandes">
+        <div class="couverturelivre">
             <img src="images/livredemande.png" alt="Couverture livre">
-            </div>
-            
-            <div id="titrelivre">
+        </div>
+        <div class="titrelivre">
             <h3>Les mémoires de Zeus</h3>
             <p>Maurice Duron</p>
-                <div id="boutonstatut">
+            <div id="boutonstatut">
                 <span>Statut de la demande : En cours <i class="fa fa-hourglass-half" aria-hidden="true"></i>
                 </span>
-                </div>
             </div>
-            
-            <div id="boutonpret">
-                <div>
+        </div>
+        <!-- Prêté par -->
+        <div class="boutonpret">
+            <div class="imagePret">
                 <img src="images/arthurpret.png" alt="Arthur">
-                </div>
-                <div>
-                <p id="textpret"> Prêté par Arthur</p>
-                </div>
-
             </div>
-
+            <div>
+                <p class="textpret"> Prêté par Arthur</p>
             </div>
-        
-            
-
+        </div>
     </div>
+</div>
 
-       <div id="cardemprunts">
-            <h3>Mes emprunts</h3>
-            <hr>
-            <div id="flexdemandes">
-            
-            <div id="couverturelivre">
+<!-- Card emprunt -->
+<div id="cardemprunts">
+
+    <h2>Mes emprunts</h2>
+    <hr>
+    <div class="flexdemandes">
+
+        <div class="couverturelivre">
             <img src="images/livreemprunt.png" alt="Couverture livre">
-            </div>
-            
-            <div id="titrelivre">
-            <h3>Les misérables</h3>
-            <p>Victor Hugo</p>
-            <p id="jours"><i class="fa fa-arrow-down" aria-hidden="true"></i> 21 jours restants</p>
-                <div id="barreverte">
-                <p>&nbsp</p>
-                </div>
-                <div id="barregrise">
-                <p>&nbsp</p>
-                </div>
-                <p><b>Prolonger l'emprunt</b></p>
+        </div>
 
+        <div class="titrelivre">
+            <div id="livreEmprunt">
+                <h3>Les misérables</h3>
+                <p>Victor Hugo</p>
             </div>
-            
-            <div id="boutonpretcesar">
-                <div>
+            <p id="jours"><i class="fa fa-arrow-down" aria-hidden="true"></i> 25 jours restants</p>
+            <!-- Progress bar -->
+            <div class="progress">
+                <span style="width: 25%"></span>
+            </div>
+            <p><b>Prolonger l'emprunt</b></p>
+        </div>
+
+        <!-- Prêter par César -->
+        <div id="boutonpretcesar">
+            <div>
                 <img src="images/cesarpret.png" alt="Arthur">
-                </div>
-                <div>
-                <p id="textpret"> Prêté par César</p>
-                </div>
             </div>
-        </div>
-        </div>
-
-       <div id="cardprets">
-            <h3>Mes livres en prêt</h3>
-            <hr>
-        <div id="flexprets">
-             <div id="flexemprunts">
-        <div id="couverturelivre">
-            <img src="images/livrepret1.png" alt="Couverture livre">
+            <div>
+                <p class="textpret"> Prêté par César</p>
             </div>
-            
-            <div id="texteprets">
-            <h3>Madame Bovary</h3>
-            <p>Gustave Flaubert</p>
-            <p><img src="images/arnopret.png" alt="Arthur" id="iconespret"> Emprunté par Arno</p>
-            <p><img src="images/calendarblack.png" alt="Arthur" id="iconespret"> Retour dans 3 jours</p>
-            </div>
-
-
-            
-            
-        </div>
-
-    </div>
-
-    <div id="flexprets">
-             <div id="flexemprunts">
-        <div id="couverturelivre">
-            <img src="images/livrepret2.png" alt="Couverture livre">
-            </div>
-            
-            <div id="texteprets">
-            <h3>Le Petit Prince</h3>
-            <p>Antoine de St Exupéry</p>
-            <p><img src="images/arthurpret.png" alt="Arthur" id="iconespret"> Emprunté par Arthur</p>
-            <p><img src="images/calendarblack.png" alt="Arthur" id="iconespret"> Retour dans 12 jours</p>
-            </div>
-
-            
-            
-            
-        </div>
-
-    </div>
-
-    <div id="flexprets">
-             <div id="flexemprunts">
-        <div id="couverturelivre">
-            <img src="images/livrepret3.png" alt="Couverture livre">
-            </div>
-            
-            <div id="texteprets">
-            <h3>Antigone</h3>
-            <p>Luc Ferry</p>
-            <p><img src="images/adrienpret.png" alt="Arthur" id="iconespret"> Emprunté par Adrien</p>
-            <p><img src="images/calendarblack.png" alt="Arthur" id="iconespret"> Retour dans 18 jours</p>
-            </div>
-
-            
-            
-            
-        </div>
-
-    </div>
-
-    <div id="flexprets">
-             <div id="flexemprunts">
-        <div id="couverturelivre">
-            <img src="images/livrepret4.png" alt="Couverture livre">
-            </div>
-            
-            <div id="texteprets">
-            <h3>Candide</h3>
-            <p>Voltaire</p>
-            <p><img src="images/yoannpret.png" alt="Arthur" id="iconespret"> Emprunté par Yoann</p>
-            <p><img src="images/calendarblack.png" alt="Arthur" id="iconespret"> Retour dans 29 jours</p>
-            </div>
-
-            
-            
-            
-        </div>
-
-    </div>
-
-    </div>
-    <div id="footer">
-        <div id="kiosque">
-            <a href="catalogue.html"><img src="images/catalogueNotSelect.png" alt="Catalogue_Menu">
-            <p>Kiosque</p></a>
-        </div>
-        <div id="communauté">
-            <a href="communaute.html"><img src="images/communauté.png" alt="Communauté_Menu">
-                <p>Communauté</p></a>
-        </div>
-        <div id="profile">
-            <img src="images/profileWhite.png" alt="Profile_Menu">
-            <p>Profile</p>
         </div>
     </div>
+</div>
+
+<!-- Card prêts -->
+<div id="cardprets">
+    <h2>Mes livres en prêt</h2>
+    <hr>
+    <!-- Prêt Bovary -->
+    <div class="flexprets">
+        <div class="flexemprunts">
+            <div class="couverturelivre">
+                <img src="images/livrepret1.png" alt="Couverture livre">
+            </div>
+
+            <div class="texteprets">
+                <h3>Madame Bovary</h3>
+                <p>Gustave Flaubert</p>
+                <p><img src="images/arnopret.png" alt="Arthur" class="iconespret"> Emprunté par Arno</p>
+                <p><img src="images/calendarblack.png" alt="Arthur" class="iconespret"> Retour dans 3 jours</p>
+            </div>
+        </div>
+    </div>
+    <!-- Prêt Petit Prince -->
+    <div class="flexprets">
+        <div class="flexemprunts">
+            <div class="couverturelivre">
+                <img src="images/livrepret2.png" alt="Couverture livre">
+            </div>
+
+            <div class="texteprets">
+                <h3>Le Petit Prince</h3>
+                <p>Antoine de St Exupéry</p>
+                <p><img src="images/arthurpret.png" alt="Arthur" class="iconespret"> Emprunté par Arthur</p>
+                <p><img src="images/calendarblack.png" alt="Arthur" class="iconespret"> Retour dans 12 jours</p>
+            </div>
+        </div>
+    </div>
+    <!-- Prêt Antigone -->
+    <div class="flexprets">
+        <div class="flexemprunts">
+            <div class="couverturelivre">
+                <img src="images/livrepret3.png" alt="Couverture livre">
+            </div>
+
+            <div class="texteprets">
+                <h3>Antigone</h3>
+                <p>Luc Ferry</p>
+                <p><img src="images/adrienpret.png" alt="Arthur" class="iconespret"> Emprunté par Adrien</p>
+                <p><img src="images/calendarblack.png" alt="Arthur" class="iconespret"> Retour dans 18 jours</p>
+            </div>
+        </div>
+    </div>
+    <!-- Prêt Candide -->
+    <div class="flexprets">
+        <div class="flexemprunts">
+            <div class="couverturelivre">
+                <img src="images/livrepret4.png" alt="Couverture livre">
+            </div>
+
+            <div class="texteprets">
+                <h3>Candide</h3>
+                <p>Voltaire</p>
+                <p><img src="images/yoannpret.png" alt="Arthur" class="iconespret"> Emprunté par Yoann</p>
+                <p><img src="images/calendarblack.png" alt="Arthur" class="iconespret"> Retour dans 29 jours</p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
+<!-- Footer -->
+<div id="footer">
+    <div id="kiosque">
+        <a href="catalogue.html"><img src="images/catalogueNotSelect.png" alt="Catalogue_Menu">
+            <p>Kiosque</p></a>
+    </div>
+    <div id="communauté">
+        <a href="communaute.html"><img src="images/communauté.png" alt="Communauté_Menu">
+            <p>Communauté</p></a>
+    </div>
+    <div id="profile">
+        <img src="images/profileWhite.png" alt="Profile_Menu">
+        <p>Profile</p>
+    </div>
+</div>
 
 </html>
 <script src="flickity.pkgd.min.js"></script>
